@@ -111,3 +111,28 @@ h2 {
 .info {
 	max-width: 150px;
 }
+
+/**Quote section**/
+
+.quote {
+	background-color: #E5E7EB;
+	display: flex;
+	flex-direction: column;
+	padding: 15%;
+	gap: 16px;
+	flex-basis: auto;
+}
+
+.italic {
+	font-size: 36px;
+	font-weight: lighter;
+	font-style: italic;
+	color: #1F2937;
+}
+
+.author {
+	font-weight: 800;
+	align-self: flex-end;
+}
+
+/**Call to Action**/
